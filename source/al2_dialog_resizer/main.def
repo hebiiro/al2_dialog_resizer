@@ -1,0 +1,6 @@
+﻿EXPORTS
+	InitializeLogger
+	InitializeConfig
+	InitializePlugin
+	UninitializePlugin
+	GetInputPluginTable
