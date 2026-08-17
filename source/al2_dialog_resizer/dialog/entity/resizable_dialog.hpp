@@ -205,6 +205,7 @@ namespace apn::dialog_resizer::dialog
 					auto& control = param->p->controls.emplace_back(
 						control_hwnd, control_rc, param->client_rc, param->client_center);
 
+					// 列挙を続けます。
 					return TRUE;
 				},
 				(LPARAM)&param);
