@@ -20,11 +20,4 @@
 
 namespace apn::dialog_resizer
 {
-	//
-	// aviutl2から呼ばれます。
-	//
-	EXTERN_C void InitializeLogger(LOG_HANDLE* logger)
-	{
-		hive.logger = logger;
-	}
 }

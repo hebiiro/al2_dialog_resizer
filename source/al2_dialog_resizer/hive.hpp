@@ -7,9 +7,5 @@ namespace apn::dialog_resizer
 	//
 	inline struct hive_t : hive_base_t
 	{
-		//
-		// aviutl2のログハンドルです。
-		//
-		LOG_HANDLE* logger = {};
 	} hive;
 }

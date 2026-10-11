@@ -288,11 +288,8 @@ namespace apn::dialog_resizer::dialog
 					// クリック座標を取得します。
 					auto pt = my::lp_to_pt(l_param);
 
-					// ログ用のテキストを作成します。
-					auto text = my::format(L"「{/}」内のクリック座標 = ({/}, {/})", window_name, pt.x, pt.y);
-
-					// テキストを出力します。
-					hive.logger->log(hive.logger, text.c_str());
+					// ログを出力します。
+					logger.log_format(L"「{/}」内のクリック座標 = ({/}, {/})", window_name, pt.x, pt.y);
 
 					break;
 				}
